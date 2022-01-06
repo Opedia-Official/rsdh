@@ -1,0 +1,271 @@
+/* ***Responsive media query*** */
+
+  
+/* =======================================
+  laptop device css start here
+==========================================*/
+@media (min-width: 1440px){ 
+  .responsive_banner_review {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px){ 
+	.banner_review {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+	.banner_review_left {
+		background-color: #fff;
+		max-width: 363px;
+		border-radius: 20px;
+		padding: 35px 28px 28px;
+		position: absolute;
+		bottom: 90px;
+	}
+	.banner_review_right {
+		background: #fff;
+		width: 208px;
+		border-radius: 20px;
+		position: absolute;
+		right: -107px;
+		bottom: 0px;
+		border: 1px solid #F4F4F4
+	}
+	.banner_review_top {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 15px;
+	}
+}
+@media (min-width: 1024px){ 
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1439px){ 
+  /* banner section */
+  .banner_review {
+    display: none !important;
+  }
+	.banner_review_left {
+		background-color: #fff;
+		border-radius: 20px;
+		padding: 35px 28px 28px;
+		position: unset;
+		bottom: 90px;
+	}
+	.banner_review_right {
+		background: #fff;
+		width: 280px;
+		border-radius: 20px;
+		position: unset;
+		border: 1px solid #F4F4F4
+	}
+  .banner_review_left {
+    box-shadow: 0px 10px 60px rgb(0 0 0 / 5%);  
+  }
+  .responsive_banner_review {
+    margin: 40px 0px;
+  }
+  .b_admin_start {
+    margin: 10px 0px 8px;
+  }
+  .services_section {
+    background-image: none;
+    margin-bottom: 80px;
+  }
+ 
+}
+@media (max-width: 1199px){ 
+  /* ======= banner section ======= */
+  .banner_content h2 {
+    font-size: 40px;
+  }
+  /*=========  banner section =========== */
+
+  /* ======== order track ========= */
+  .row.track_custom_row {
+    justify-content: center;
+  }
+  .track_button {
+    margin-top: 20px;
+  }
+  .track_product_area {
+    padding: 57px 67px;
+  }
+  /* ========= order track ====== */
+  .service_item h4 {
+    font-size: 20px; 
+  } 
+
+  
+
+
+}
+@media (max-width: 1399px){ 
+  button.btn.trackbtn {
+    font-size: 16px;
+  }
+  /* ======= banner section ============ */
+  .banner_content {
+    padding: 100px 0px 87px 60px;
+  }
+  /* ========== banner section ============ */
+
+  /* service section */
+  .services_area {
+    padding: 99px 37px;
+  }
+}
+@media (max-width: 1023px){ 
+  .header_section {
+    display: none;
+  }
+  
+}
+
+/* =======================================
+  laptop device css end here
+==========================================*/
+
+
+
+
+/* ========= tablet device css start here =============== */
+@media (max-width: 991px){ 
+  .banner_content h2 {
+    font-size: 30px;
+  }
+  .banner_content {
+    padding: 58px 22px 60px;
+  }
+  .banner_section {
+    margin-top: 130px;
+  }
+
+  .services_section {
+    margin-bottom: 60px;
+  }
+ 
+}
+@media (max-width: 767px){ 
+  .track_product_form input {
+    margin-top: 20px;
+  }
+  .banner_review_right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner_content {
+    padding: 57px 58px;
+    padding-bottom:25px;
+  }
+  .banner_image img {
+    padding-right: 0;
+  }
+}
+/* ========= tablet device css start here =============== */
+
+
+/* ========= mobile Medium device css start here =============== */
+
+@media (min-width: 576px){ 
+   /* write here */
+  
+}
+@media (max-width: 575px){ 
+  .track_product_header h2 {
+    font-size: 20px;
+  }
+  .track_product_header p {
+    font-size: 15px;
+  }
+  button.btn.trackbtn {
+    font-size: 15px;
+    padding: 20px 9px;
+  }
+  .banner_content input {
+    padding: 15px 9px;
+  }
+  .banner_content {
+    padding: 57px 16px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 12px 35px;  
+  }
+  .track_product_area {
+    padding: 57px 31px;
+  }
+  .section-title h3 {
+    font-size: 30px;
+  }
+
+  /* services section */
+
+  .services_area {
+    padding: 76px 28px;
+  }
+  
+  .service_item h4 {
+    font-size: 18px; 
+  } 
+  
+}
+@media (max-width: 424px) {
+  .banner_content {
+    padding: 57px 15px;
+  }
+  .banner_content h2 {
+    font-size: 20px;
+  }
+  .banner_content input {
+    padding: 12px 7px;
+    max-width: 182px;
+  }
+  .section-title h3 {
+    font-size: 24px;
+  }
+  .section-title p {
+    font-size: 13px;
+  }
+ 
+}
+@media (max-width: 375px) {
+  .banner_content input::placeholder {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+  .banner_content p {
+    font-size: 14px;
+  }
+  .service_item { 
+    padding: 26px 22px;
+  }
+  .service_item p {
+    font-size: 14px;
+  }
+}
+
+/* ========= mobile Medium device css end here =============== */
+
+/* ========= mobile small device css start here  =============== */
+@media (max-width: 320px){ 
+  button.btn.trackbtn {
+    font-size: 15px;
+    padding: 9px 14px;
+  }
+}
+
+/* ========= mobile small device css end here =============== */
+
+ 
